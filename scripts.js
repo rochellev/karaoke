@@ -57,8 +57,6 @@ const userClick = () => {
   console.log(store.getState());
 }
 
-// runs renderLyrics() method from above when page is finished loading.
-// window.onload is HTML5 version of jQuery's $(document).ready()
-window.onload = function() {
-  renderLyrics();
-}
+// SUBSCRIBE TO REDUX STORE
+store.subscribe(renderLyrics);
+
