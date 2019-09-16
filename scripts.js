@@ -53,7 +53,8 @@ console.log(store.getState());
 
 // CLICK LISTENER
 const userClick = () => {
-  console.log('click');
+  store.dispatch({ type: 'NEXT_LYRIC'});
+  console.log(store.getState());
 }
 
 // runs renderLyrics() method from above when page is finished loading.
