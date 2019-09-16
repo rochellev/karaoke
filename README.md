@@ -16,3 +16,7 @@ $ git clone https://github.com/rochellev/karaoke.git
 $ cd karaoke
 ```
 <br/>
+
+
+## Jest
+https://jestjs.io/docs/en/expect.html#tobevalue 
