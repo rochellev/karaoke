@@ -7,13 +7,12 @@
 
 This Karaoke project was created to explore Redux.
 <br/>
-## Installing Taproom
+## Installing and Running Karaoke Project
 
-Clone this repository on your machine and install dependencies.
+Clone this repository on your machine and open `index.html` in an internet browser.
 
 ```sh
 $ git clone https://github.com/rochellev/karaoke.git
 $ cd karaoke
-$ npm install
 ```
 <br/>
